@@ -1,3 +1,5 @@
+#!/usr/bin/bash
+
 if [ -d ~/system-memory ]; then
     echo "directory is exist at $HOME"
 else
@@ -5,4 +7,4 @@ else
     mkdir ~/system-memory
 fi
 
-free 1 >> ~system-memory/free-ram.log
+free 1>> ~/system-memory/free-ram.log
